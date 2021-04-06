@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Портфолио-HTML верстальщик Наталья Мотовилова</title>
+    <meta name="author" content="Natalya Motovilova">
+    <meta name="description" content="Адаптивная верстка,перенос на Wordpress">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<link href="main.css" rel="stylesheet"></head>
+<body>
+<header class="screen ">
+    <section class="card">
+        <nav>
+            <ul class="menu">
+                <li><a href="#about" class="link"><span>Обо мне</span></a></li>
+                <li><a href="#portfolio" class="link"><span>Портфолио</span></a></li>
+                <li><a href="#contacts" class="link"><span>Контакты</span></a></li>
+            </ul>
+        </nav>
+        <div class="mobile-menu">
+            <input type="checkbox">
+            <div class="mobile-menu__line mobile-menu__line_top"></div>
+            <div class="mobile-menu__line mobile-menu__line_middle"></div>
+            <div class="mobile-menu__line mobile-menu__line_bottom"></div>
+        </div>
+        <div class=" circle circle_red circle_top"></div>
+        <div class="circle circle_red circle_bottom"></div>
+        <div class=" circle circle_red circle_top-right"></div>
+        <div class=" circle circle_red circle_right-bottom"></div>
+        <div class=" circle circle_white circle_bottom-white"></div>
+        <div class=" circle circle_white circle_top-white"></div>
+        <div class="rectangle-top">
+            <img src="static/images/Rectangle1.png" alt="decor">
+        </div>
+        <div class="rectangle-right">
+            <img src="static/images/Rectangle2.png" alt="decor">
+        </div>
+        <div class="content-wrap">
+            <div class="col-l">
+                <article class="text">
+                    <p class="subtitle">Привет, я Наталья</p>
+                    <h1>
+                        НTML верстальщик и frontend разработчик
+                    </h1>
+                </article>
+
+            </div>
+            <div class="col-r">
+                <div class="image-css">
+                    <img src="static/images/Vector.png" alt="css3">
+                </div>
+                <div class="image-html">
+                    <img src="static/images/html5.png" alt="html5">
+                </div>
+                <div class="image-js">
+                    <img src="static/images/js.png" alt="js">
+                </div>
+                <div class="image-wp">
+                    <img src="static/images/wordpress.png" alt="wp">
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+</header>
+
+    <section id="about">
+        <div class="circle circle_red circle_about2"></div>
+        <div class="circle circle_red circle_about4"></div>
+            <article class="about-inner">
+                <h2 class="content__title line">Немного о себе</h2>
+                <div class="article-content ">
+
+                    <section class="content__photo card card-about">
+                        <div class="circle circle_white circle_about1"></div>
+                        <img src="static/images/photo2.png" alt="Фото Наталья Мотовилова">
+                    </section>
+
+                    <section class="content__text">
+                        <div class="circle circle_white circle_about3"></div>
+                        <p> Познакомимся поближе, я - Наталья Мотовилова.
+                            Окончила Ростовский государственный университет по специальности "Прикладная математика и
+                            информатика".
+                        </p>
+                        <p> Занимаюсь адаптивной и кросcбраузерной версткой, также переносом ее на
+                            Wordpress.</p>
+                        <p>
+                            В верстке использую препроцессор Sass, шаблонизатор Pug; технологию FlexBox,
+                            Grid,
+                            фреймворк Bootstrap; медотологию БЭМ. Для добавления динамики на сайт библиотеку JQuery и
+                            ванильный JavaScript,
+                            различные готовые библиотеки.
+                            Сборщики проектов Gulp, Webpack. Имею все необходимые для верстальщика навыки работы с
+                            Photoshop, Figma, Zeplin.
+                        </p>
+                        <div class="circle circle_red circle_about5"></div>
+                    </section>
+                </div>
+            </article>
+
+    </section>
+
+
+<section id="portfolio">
+    <div class="portfolio-inner">
+        <div class="circle circle_white circle_portfolio1"></div>
+        <div class="circle circle_red circle_portfolio2"></div>
+        <div class="circle circle_red circle_portfolio3"></div>
+        <div class="circle circle_white circle_portfolio4"></div>
+        <h2 class="content__title line content__title_color">портфолио</h2>
+
+        <div class="portfolio__items">
+            <div class="portfolio__item" style="background-image: url('static/images/wooder1.jpg');">
+                <a href="https://nm-web.github.io/Wooder" target="_blank">
+                    <div class="photo-top">
+
+                            <p>Верстка Landing page</p>
+                            <!--                        <p>- Верстка на Flexbox</p>-->
+                            <!--                        <p>- адаптирован под мобильные устройства</p>-->
+                            <!--                        <p>- использована библиотека Slider.js - слайды </p>-->
+                            <!--                        <p>- препроцессор Sass</p>-->
+                            <p> Перейти на сайт </p>
+
+                    </div>
+                </a>
+            </div>
+
+            <div class="portfolio__item" style="background-image: url('static/images/BOUNCY.jpg');">
+                <a href="https://nm-web.github.io/Bouncy" target="_blank">
+                    <div class="photo-top">
+                        <p >Верстка Landing page</p>
+<!--                        <p>- верстка с помощью сетки Bootstrap</p>-->
+<!--                        <p>- адаптирован под мобильные устройства</p>-->
+<!--                        <p>- использована библиотека Swiper.js - слайды </p>-->
+<!--                        <p>- использована библиотека progressbar.js - линейные и круговые прогрессбары </p>-->
+                        <p> Перейти на сайт </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="portfolio__item" style="background-image: url('static/images/lookshop.jpg');">
+
+                <a href="https://nm-web.github.io/LookShop" target="_blank">
+                    <div class="photo-top">
+                        <p>Верстка интернет магазина, перенос на Wordpress </p>
+<!--                        <p>- верстка перенесена на wordpress</p>-->
+<!--                        <p>- функционал магазина реализован с помощью плагина Woocommerce</p>-->
+<!--                        <p>- адаптирован под мобильные устройства</p>-->
+                        <p> Перейти на сайт </p>
+                    </div>
+                </a>
+
+            </div>
+            <div class="portfolio__item" style="background-image: url('static/images/bicycle.jpg');">
+
+                <!--                    <img src="static/images/bicycle.jpg" alt="bicycle">-->
+                <a href="https://nm-web.github.io/Site-Grid-Flex/" target="_blank">
+                    <div class="photo-top">
+                        <p> Верстка Landing page</p>
+<!--                        <p>- верстка на основе FlexBox и Grid</p>-->
+<!--                        <p>- адаптирован под мобильные устройства</p>-->
+                        <p> Перейти на сайт </p>
+
+                    </div>
+                </a>
+
+            </div>
+            <div class="portfolio__item" style="background-image: url('static/images/TravelGram.jpg');">
+                <a href="https://nm-web.github.io/TravelGram/" target="_blank">
+                    <div class="photo-top">
+                        <p>Верстка блога, перенос на Wordpress</p>
+<!--                        <p>- верстка перенесена на wordpress</p>-->
+<!--                        <p>- адаптирован под мобильные устройства</p>-->
+<!--                        <p>- использована библиотека Slick.js</p>-->
+<!--                        <p>- использована библиотека Wow.js</p>-->
+                        <p> Перейти на сайт </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="portfolio__subtitle">
+
+            <a href="https://github.com/nm-web?tab=repositories" class="btn-portfolio" target="_blank">Посмотреть исходники на GitHub</a>
+        </div>
+    </div>
+
+</section>
+<footer class="footer">
+    <div id="contacts">
+        <div class="circle circle_red circle_contacts1"></div>
+        <div >Аккаунт на Kwork.ru:</div>
+        <div class="email"><a href="https://kwork.ru/user/nm-web">https://kwork.ru/user/nm-web</a></div>
+        <div class="circle circle_white circle_contacts2"></div>
+        <div class="circle circle_red circle_contacts3"></div>
+    </div>
+</footer>
+<script type="text/javascript" src="app.bundle.js"></script></body>
